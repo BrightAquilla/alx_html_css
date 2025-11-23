@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: antiquewhite;
+    border: #3f104c;
 }
 main{
     display: flex;
@@ -10,14 +12,21 @@ main{
 article{
     flex: 2;
     overflow: auto;
+    border-color: #58046f;
+    background-image: https://pngtree.com/freebackground/beautiful-geometric-background-with-different-geometric-articles_1242048.html;
 }
 aside{
     flex: 1;
     overflow: auto;
+    background-color: bisque;
 }
-  body.works_on_smartphone {
-  	display: block;
-  }
-  body.works_on_smartphone main {
-  	display: block;
-  }
+ul li a:hover {
+  background-color: #58046f;
+  box-sizing: border-box;
+}
+table{
+    background-color: blanchedalmond;
+}
+.logo{
+    size: 500;
+}
